@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+
+<project>
+        <name>CoreSLAM</name>
+
+        <author>
+		<name>Bruno Steux</name>
+		<url>http://caor.ensmp.fr/</url>
+	</author>
+        <author>
+		<name>Oussama El Hamzaoui</name>
+		<url>http://caor.ensmp.fr/</url>
+	</author>
+
+        <url>http://caor.ensmp.fr/</url>
+
+        <briefdescription>
+	 CoreSLAM is Laser-SLAM algorithm which has been programmed in less than 200 lines of C-language code. 
+	</briefdescription>
+
+        <description>
+	Our idea was to develop and implement a very simple SLAM algorithm that could be easily integrated into our particle-filter based localization subsystem. For our experiments, we have been using a homebrew robotic platform called MinesRover. It's a six wheels robot fully equipped with sensors, including a Hokuyo URG04 laser scanner. A typical example of our experiments is presented in the paper mentioned below, showing the good performance of the algorithm. Furthermore, the full source code of the map update and map matching functions are provided. This work shows the possibility to perform complex tasks using simple and easily programmable algorithms.	
+	</description>
+
+        <requirement>
+	Linux/Unix, GCC 3.3/4.0.x
+	windows
+	</requirement>
+
+	<map>grid maps</map>
+
+	<input>The approach takes raw laser range data and
+	odometry. This version of CoreSLAM was tested with a Hokuyo Laser scanner. 
+	CoreSLAM can also work with long-range laser
+	scanners like SICK LMS or PLS scanner.</input>
+
+	<image> 
+		<url>http://infotrick.u7n.org/CoreSLAM/total_color.png</url>
+		<thumbnailurl>http://infotrick.u7n.org/CoreSLAM/total_color.jpg</thumbnailurl>
+		<description>A map of the CAOR laboratory in Mines ParisTech obtained during our experiments</description>
+	</image>
+
+	<paper>
+		<title>CoreSLAM : a SLAM Algorithm in less than 200 lines of C code</title>
+		<authorlist>Bruno Steux and Oussama El Hamzaoui</authorlist>
+		<publishedin>Proposed to IROS2009</publishedin>
+		<year>2009</year>
+		<url>http://infotrick.u7n.org/CoreSLAM/CoreSLAM.pdf</url>
+	</paper>
+
+	<license>
+	CoreSLAM is licenced under the GNU General Public License.
+	</license>
+
+	<furthermore>
+	The CoreSLAM algorithm is compiled as a library by default, it can thus be used easily as a black box.
+	</furthermore>
+
+</project>
