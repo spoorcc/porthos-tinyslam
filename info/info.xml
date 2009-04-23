@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 
- <project>
+<project>
         <name>CoreSLAM</name>
 
         <author>
@@ -49,7 +49,7 @@
 	</paper>
 
 	<license>
-	CoreSLAM is licenced under the GNU General Public License.
+	CoreSLAM is licenced under the MIT License.
 	</license>
 
 	<furthermore>
