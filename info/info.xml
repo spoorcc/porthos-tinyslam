@@ -43,7 +43,6 @@
 	<paper>
 		<title>CoreSLAM : a SLAM Algorithm in less than 200 lines of C code</title>
 		<authorlist>Bruno Steux and Oussama El Hamzaoui</authorlist>
-		<year>2009</year>
 		<url>http://infotrick.u7n.org/CoreSLAM/CoreSLAM.pdf</url>
 	</paper>
 
