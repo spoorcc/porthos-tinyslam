@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 
 <project>
-        <name>CoreSLAM</name>
+        <name>tinySLAM</name>
 
         <author>
 		<name>Bruno Steux</name>
@@ -15,7 +15,7 @@
         <url>http://caor.ensmp.fr/</url>
 
         <briefdescription>
-	 CoreSLAM is Laser-SLAM algorithm which has been programmed in less than 200 lines of C-language code. 
+	 tinySLAM is Laser-SLAM algorithm which has been programmed in less than 200 lines of C-language code. 
 	</briefdescription>
 
         <description>
@@ -48,7 +48,7 @@
 	</paper>
 
 	<license>
-	CoreSLAM is licenced under the MIT License.
+	tinySLAM is licenced under the MIT License.
 	</license>
 
 	<furthermore>
