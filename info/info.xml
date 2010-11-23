@@ -30,8 +30,8 @@
 	<map>grid maps</map>
 
 	<input>The approach takes raw laser range data and
-	odometry. This version of CoreSLAM was tested with a Hokuyo Laser scanner. 
-	CoreSLAM can also work with long-range laser
+	odometry. This version of tinySLAM was tested with a Hokuyo Laser scanner. 
+	tinySLAM can also work with long-range laser
 	scanners like SICK LMS or PLS scanner.</input>
 
 	<image> 
@@ -52,7 +52,7 @@
 	</license>
 
 	<furthermore>
-	The CoreSLAM algorithm is compiled as a library by default, it can thus be used easily as a black box.
+            The tinySLAM algorithm is compiled as a library by default, it can thus be used easily as a black box.
 	</furthermore>
 
 </project>
