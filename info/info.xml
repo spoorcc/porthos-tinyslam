@@ -35,13 +35,13 @@
 	scanners like SICK LMS or PLS scanner.</input>
 
 	<image> 
-		<url>http://infotrick.u7n.org/CoreSLAM/total_color.png</url>
-		<thumbnailurl>http://infotrick.u7n.org/CoreSLAM/total_color.jpg</thumbnailurl>
+		<url>http://www.morengi.com/infotrick/tinySLAM/total_color.png</url>
+		<thumbnailurl>http://www.morengi.com/infotrick/tinySLAM/total_color.png</thumbnailurl>
 		<description>A map of the CAOR laboratory in Mines ParisTech obtained during our experiments</description>
 	</image>
 
 	<paper>
-		<title>CoreSLAM : a SLAM Algorithm in less than 200 lines of C code</title>
+		<title>tinySLAM : a SLAM Algorithm in less than 200 lines of C code</title>
 		<authorlist>Bruno Steux and Oussama El Hamzaoui</authorlist>
 		<publishedin>Accepted for the International Conference on Control, Automation, Robotics and Vision (ICARCV)</publishedin>
 		<year>2010</year>
