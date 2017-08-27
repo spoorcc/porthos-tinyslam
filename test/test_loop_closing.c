@@ -15,7 +15,7 @@
 #endif
 #include "CoreSLAM.h"
 
-#define TEST_FILENAME "test_lab2"
+#define TEST_FILENAME "data/test_lab2"
 
 #define TEST_MAX_SCANS 5000
 #define TEST_SCAN_SIZE 682

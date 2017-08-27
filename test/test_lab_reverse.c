@@ -4,7 +4,7 @@
 #include <math.h>
 #include "CoreSLAM.h"
 
-#define TEST_FILENAME "test_lab.dat"
+#define TEST_FILENAME "data/test_lab.dat"
 #define TEST_SCAN_SIZE 682
 #define TEST_MIN_DIST 20
 #define TEST_ANGLE_MIN -120
