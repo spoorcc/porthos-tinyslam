@@ -26,6 +26,6 @@ target_link_libraries(test_SDL CoreSLAM ${SDL_LIBRARY} ${SDLLIB} ${SDLmainLIB}
 add_executable(test_loop_closing test_loop_closing.c)
 target_link_libraries(test_loop_closing CoreSLAM ${SDL_LIBRARY} ${SDLLIB} ${SDLmainLIB}
     ${SDLGFXLIB} ${libs})
-file(COPY "." DESTINATION "." FILES_MATCHING PATTERN "*.dat")
+file(COPY "./data" DESTINATION "." FILES_MATCHING PATTERN "*.dat")
 file(COPY "." DESTINATION "." FILES_MATCHING PATTERN "*.bmp")
 
