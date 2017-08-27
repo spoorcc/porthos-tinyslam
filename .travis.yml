@@ -5,6 +5,7 @@ addons:
   apt:
     packages:
       - cmake
+      - libsdl-dev
 compiler:
   - gcc
   - clang
